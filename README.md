@@ -21,4 +21,16 @@
 - **Deployment**: Vercel
 
 ## 📸 项目截图
-(这里建议你去截几张图：首页、详情页、编辑页，放在 public 文件夹里然后引入，或者直接用图床链接)
+### 1. 首页预览
+<img width="800" alt="首页" src="https://github.com/user-attachments/assets/9d15636a-d0d8-4d9c-a6a7-f504101a7fdd"/>
+
+### 2. 文章详情 (支持 Markdown)
+<img width="800" alt="详细页" src="https://github.com/user-attachments/assets/209b76bb-a042-40ee-87b8-f1756e379690"/>
+
+### 3. 发布与编辑
+<img width="800" alt="发布页" src="https://github.com/user-attachments/assets/8de052e1-db9a-4fb9-b523-93b53902a2e1"/>
+<img width="800" alt="编辑页" src="https://github.com/user-attachments/assets/24e60e1d-ba7f-4485-8191-c735d6900565"/>
+
+
+
+
