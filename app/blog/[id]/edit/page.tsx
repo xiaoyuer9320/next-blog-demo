@@ -1,5 +1,6 @@
 import { supabase } from '@/lib/supabase';
 import { updatePost } from '@/app/actions';
+import Link from 'next/link'; 
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -52,10 +53,27 @@ export default async function EditPage({ params }: Props) {
               className="w-full border border-gray-300 rounded-md p-2 outline-none focus:ring-2 focus:ring-blue-500" 
             />
           </div>
+          
+          {/* 👇 3. 底部按钮区域：取消 + 保存 */}
+          <div className="flex gap-4 pt-4">
+            {/* 保存按钮 */}
+            <button 
+              type="submit" 
+              className="w-2/3 bg-blue-600 text-white font-bold py-3 rounded-md hover:bg-blue-700 transition"
+            >
+              💾 保存修改
+            </button>
 
-          <button type="submit" className="w-full bg-blue-600 text-white font-bold py-3 rounded-md hover:bg-blue-700 transition">
-            💾 保存修改
-          </button>
+            {/* 取消按钮：跳转回详情页 (/blog/id) */}
+            <Link href={`/blog/${id}`} className="w-1/3">
+              <button 
+                type="button" // ⚠️ 必须加，防止提交表单
+                className="w-full bg-gray-200 text-gray-700 font-bold py-3 rounded-md hover:bg-gray-300 transition"
+              >
+                取消
+              </button>
+            </Link>
+          </div>
         </form>
       </div>
     </div>
