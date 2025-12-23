@@ -3,7 +3,7 @@
 基于 Next.js 15 (App Router) + Supabase + Tailwind CSS 构建的全栈内容管理系统。
 
 ## 🚀 在线预览
-[点击访问在线 Demo](https://你的vercel域名.vercel.app)
+[点击访问在线 Demo](https://next-blog-demo-xv8e7qz9x-xiaoyuer9320s-projects.vercel.app/)
 *(注：由于部署在 Vercel，国内访问可能需要网络环境支持)*
 
 ## ✨ 核心功能
