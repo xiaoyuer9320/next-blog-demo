@@ -1,6 +1,8 @@
+/** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    // 👇 v4 必须用这个插件，而不是普通的 'tailwindcss'
+    '@tailwindcss/postcss': {},
   },
 };
 
